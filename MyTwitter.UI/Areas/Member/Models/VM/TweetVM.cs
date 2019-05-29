@@ -9,7 +9,7 @@ namespace MyTwitter.UI.Areas.Member.Models.VM
     public class TweetVM
     {
         public TweetVM()
-        {//
+        {
             Tweets = new List<Tweet>();
             Likes = new List<Like>();
             Comments = new List<Comment>();
